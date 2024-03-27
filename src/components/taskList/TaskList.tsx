@@ -9,7 +9,7 @@ import { Box, List, Typography } from '@mui/material';
 import { Todo } from '../../interface/interface';
 
 interface Props {
-  toDos: [Todo] | [];
+  toDos: Todo[];
   statusFilter: string;
 }
 

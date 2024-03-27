@@ -21,11 +21,9 @@ const EditTaskForm = ({
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    // const form = e.target;
     handleEdit(title, description);
     setTitle('');
     setDescription('');
-    // form.reset();
   };
 
   return (
@@ -33,7 +31,6 @@ const EditTaskForm = ({
       component="form"
       sx={{ display: 'flex', gap: '8px' }}
       onSubmit={handleSubmit}
-      //   fullWidth
     >
       <TextField
         required

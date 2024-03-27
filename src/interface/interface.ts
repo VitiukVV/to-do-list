@@ -30,6 +30,6 @@ export interface Todo {
 }
 
 export interface ToDoState {
-  tasks: [Todo] | [];
+  tasks: Todo[];
   filters: { status: string };
 }
