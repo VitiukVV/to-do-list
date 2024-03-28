@@ -13,7 +13,7 @@ const ToDoList = () => {
         marginTop: 5,
       }}
     >
-      <Box>
+      <Box sx={{ width: '700px' }}>
         <TaskBar />
         <TaskForm />
         <TaskList />
