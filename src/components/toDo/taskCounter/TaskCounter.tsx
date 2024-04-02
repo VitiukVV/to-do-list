@@ -1,6 +1,6 @@
 import { Box, Typography } from '@mui/material';
-import { useAppSelector } from '../../app/hooks';
-import { selectTasks } from '../../store/toDoSlice/selectors';
+import { useAppSelector } from '../../../hooks/hooks';
+import { selectTasks } from '../../../store/toDoSlice/selectors';
 
 const TaskCounter = () => {
   const tasks = useAppSelector(selectTasks);

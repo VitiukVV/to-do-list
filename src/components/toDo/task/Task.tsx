@@ -13,13 +13,13 @@ import {
   Typography,
 } from '@mui/material';
 import { ChangeEvent, useState } from 'react';
-import { useAppDispatch } from '../../app/hooks';
+import { useAppDispatch } from '../../../hooks/hooks';
 import {
   changeStatusTask,
   deleteToDo,
   patchToDo,
-} from '../../store/toDoSlice/slice';
-import { Todo } from '../../interface/interface';
+} from '../../../store/toDoSlice/slice';
+import { Todo } from '../../../interface/interface';
 import EditTaskForm from '../editTaskForm/EditTaskForm';
 
 interface Props {

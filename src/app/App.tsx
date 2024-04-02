@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import AppBar from './appBar/AppBar';
-import Weather from './pages/weather/Weather';
+import AppBar from '../components/appBar/AppBar';
+import Weather from '../pages/weather/Weather';
 
-const ToDoList = lazy(() => import('./pages/toDoList/ToDoList'));
+const ToDoList = lazy(() => import('../pages/toDoList/ToDoList'));
 
 const App = () => {
   return (

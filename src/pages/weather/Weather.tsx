@@ -1,9 +1,9 @@
 import { Box, Button, Container, TextField } from '@mui/material';
 import Notiflix from 'notiflix';
 import { ChangeEvent, FormEvent, useState } from 'react';
-import { WeatherData } from '../../../interface/interface';
-import { getWeatherDataByCityName } from '../../../service/ServiceApi';
-import WeatherCard from '../../weatherCard/WeatherCard';
+import { WeatherData } from '../../interface/interface';
+import { getWeatherDataByCityName } from '../../service/ServiceApi';
+import WeatherCard from '../../components/weather/weatherCard/WeatherCard';
 
 const Weather = () => {
   const [cityName, setCityName] = useState<string>('');

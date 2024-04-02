@@ -1,7 +1,7 @@
 import { Button, Stack } from '@mui/material';
 import { useState } from 'react';
-import { useAppDispatch } from '../../app/hooks';
-import { setStatusFilter } from '../../store/toDoSlice/slice';
+import { useAppDispatch } from '../../../hooks/hooks';
+import { setStatusFilter } from '../../../store/toDoSlice/slice';
 
 const StatusFilter = () => {
   const dispatch = useAppDispatch();

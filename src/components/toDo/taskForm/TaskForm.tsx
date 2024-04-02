@@ -1,7 +1,7 @@
 import { Box, Button, TextField } from '@mui/material';
 import { ChangeEvent, FormEvent, useState } from 'react';
-import { useAppDispatch } from '../../app/hooks';
-import { addToDo } from '../../store/toDoSlice/slice';
+import { useAppDispatch } from '../../../hooks/hooks';
+import { addToDo } from '../../../store/toDoSlice/slice';
 
 const TaskForm = () => {
   const dispatch = useAppDispatch();

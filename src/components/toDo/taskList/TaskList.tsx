@@ -1,12 +1,12 @@
 import { nanoid } from 'nanoid';
 import Task from '../task/Task';
-import { useAppSelector } from '../../app/hooks';
+import { useAppSelector } from '../../../hooks/hooks';
 import {
   selectTasks,
   selectFiltersStatus,
-} from '../../store/toDoSlice/selectors';
+} from '../../../store/toDoSlice/selectors';
 import { Box, List, Typography } from '@mui/material';
-import { Todo } from '../../interface/interface';
+import { Todo } from '../../../interface/interface';
 
 interface Props {
   toDos: Todo[];

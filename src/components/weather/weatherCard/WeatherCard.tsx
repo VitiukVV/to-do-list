@@ -1,12 +1,14 @@
 import { Card, CardContent, Typography } from '@mui/material';
-import { WeatherData } from '../../interface/interface';
-import { convertSecondsToHoursAndMinutes } from '../../tools/convertSecondsToHoursAndMinutes';
+import { WeatherData } from '../../../interface/interface';
+import { convertSecondsToHoursAndMinutes } from '../../../tools/convertSecondsToHoursAndMinutes';
 
 interface WeatherCardProps {
   weatherInfo: WeatherData;
 }
 
 const WeatherCard = ({ weatherInfo }: WeatherCardProps) => {
+  console.log(weatherInfo.main.temp);
+  console.log('first');
   return (
     <Card
       sx={{
@@ -29,12 +31,12 @@ const WeatherCard = ({ weatherInfo }: WeatherCardProps) => {
           </li>
           <li>
             <Typography variant="body1">
-              Temperature: {weatherInfo.main.temp}&deg;C
+              Temperature: {weatherInfo.main.temp.toFixed()}&deg;C
             </Typography>
           </li>
           <li>
             <Typography variant="body1">
-              Feels like: {weatherInfo.main.feels_like}&deg;C
+              Feels like: {weatherInfo.main.feels_like.toFixed()}&deg;C
             </Typography>
           </li>
           <li>

@@ -1,7 +1,7 @@
 import { Box, Container } from '@mui/material';
-import TaskBar from '../../taskBar/TaskBar';
-import TaskForm from '../../taskForm/TaskForm';
-import TaskList from '../../taskList/TaskList';
+import TaskBar from '../../components/toDo/taskBar/TaskBar';
+import TaskForm from '../../components/toDo/taskForm/TaskForm';
+import TaskList from '../../components/toDo/taskList/TaskList';
 
 const ToDoList = () => {
   return (
