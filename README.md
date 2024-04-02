@@ -40,13 +40,16 @@ please feel free to reach out to us.
 
 ## How to Use:
 
-Clone this repository to your local machine. Install the necessary dependencies.
-Run the application and start exploring weather information and managing your
-to-do list.
+```
+Clone this repository to your local machine.
+npm i
+npm run dev
+```
 
 ## Dependencies:
 
-**Weather API:** Ensure you have an API key for accessing weather data. Frontend
-**Framework:** This application may require specific frontend frameworks or
-libraries for its user interface. Please refer to the documentation for further
-details.
+**Weather API:** Ensure you have an API key for accessing weather data.
+
+**Frontend Framework:** This application may require specific frontend
+frameworks or libraries for its user interface. Please refer to the
+documentation for further details.
